@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Loan Calculator 2.0</title>
+
+    <!-- Adding my custom Bootsrap theme favicon & font-awesome -->
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico"/>
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <!-- No nned for a seperate CSS file, just had to style the footer -->
+    <style>
+      html, body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+  }
+
+  .bigFont {
+    font-size: 2rem;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
+    </style>
+
+  </head>
+  <body>
+      <div class="jumbotron text-center bg-light mt-0 mb-0 pt-1">
+        <!-- Heading -->
+
+          <h1 class="display-2 text-info text-center">
+          <span> <img class="icon" src="./assets/favicon.ico"></img></span>
+            Loan Calculator 
+              <span class="text-dark h4">2.0</span></h1>
+                  <p class="lead">
+                      Loan Calculator will determine your estimated payments
+                      for loan amounts, interest rates and terms.
+                  </p>
+
+                  <!-- FORM markup -->
+                  <div class="container">
+                      <form id="loan-form">
+
+                          <div class="form-group">
+                              <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text px-3 bg-secondary text-success font-weight-bold"
+                                    style="background-color: #e3f2fd;">$</span>
+                                  </div>
+                                  <input
+                                    id="amount"
+                                    type="number" 
+                                    class="form-control"
+                                    placeholder="Loan Amount"
+                                    aria-label="Loan Amount" 
+                                    aria-describedby="Loan Amount" />
+                                </div>
+
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text px-3 bg-secondary text-warning font-weight-bold"
+                              >%</span>
+                            </div>
+                            <input
+                              id="interest"
+                              type="number"
+                              class="form-control"
+                              placeholder="Interest Rate"
+                              aria-label="Interest"
+                              aria-describedby="Interest"
+                            />
+                          </div>
+            
+                          <div class="form-group">
+                            <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text px-3 bg-secondary text-danger font-weight-bold">X</span>
+                              </div>
+                              <input
+                                id="years"
+                                type="number"
+                                class="form-control"
+                                placeholder="Years to Repay"
+                                aria-label="Years"
+                                aria-describedby="Years"
+                              />
+                            </div>
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              value="Calculate"
+                              class="btn btn-outline-info btn-block"
+                            />
+                          </div>
+                        </form>
+
+        <!-- RESULTS output -->
+                      
+        <div class="container">
+          <div>
+              <h2 class="display-6 text-info text-center mb-2">Calculated Results:</h2>
+          </div>
+
+          <div class="row mb-1 pb-1">
+              <div class="card text-white bg-success m-auto">
+                  <div class="card-header">Monthly Payments</div>
+                  <div class="card-body">
+                    <h4 class="card-title">$</h4>
+                    <p  class="card-text"
+                        id="monthlyPayment">
+                  </div>
+                </div>
+          
+                <div class="card text-white bg-warning m-auto">
+                    <div class="card-header">Monthly Payments</div>
+                    <div class="card-body">
+                      <h4 class="card-title" 
+                          id="interest">%</h4>
+                      <p  class="card-text"
+                          id="totalInterest">
+                    </div>
+                  </div>
+          
+                  <div class="card text-white bg-danger m-auto">
+                      <div  class="card-header">Total Amount</div>
+                      <div  class="card-body">
+                        <h4 class="card-title">$</h4>
+                          <p class="card-text"
+                              id="totalPayment">
+                          </p>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+              <footer class="footer bg-secondary m-auto">     
+                  <h5 class="lead m-auto mx-2 py-1">
+                  Made with 💚 by BiggaHD ➖ &copy; 2019
+                </h5>  
+              </footer>
+
+  </body>
+  <script src="./js/app.js"></script>
+</html>
