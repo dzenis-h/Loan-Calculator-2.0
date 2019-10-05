@@ -3,6 +3,6 @@
 
 > ###### Additional info:
 > This is the improved version of my basic 'Loan Calulator'.
-> It's deployed to Heroku. Go check it out:  
+> It's deployed to Friebase. Go check it out:  
 
-  https://loan-calculator-2.herokuapp.com
+> https://web-loan-calculator.firebaseapp.com/
