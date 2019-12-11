@@ -1,0 +1,49 @@
+/*  Simple media querie for mobile devices*/
+@media screen and (max-width: 567px) {
+  .card {
+    flex-direction: row !important;
+    margin-top: 0.33rem !important;
+    width: 66% !important;
+  }
+  .form-group {
+    margin-top: 1rem !important;
+  }
+  #heading {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .card-header {
+    border: none;
+    border-right: 3px solid rgba(0, 0, 0, 0.125) !important;
+    margin: auto;
+  }
+  #result {
+    font-size: 2rem;
+  }
+}
+
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* background-color: #222222; */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.bigFont {
+  font-size: 2rem;
+}
+
+.icon {
+  font-size: 3rem;
+}
