@@ -4,5 +4,6 @@
 
 > ###### Additional info:
 >
+> This is the improved version of my basic 'Loan Calculator'.
 > It's deployed to Firebase. Go check it out:
 > https://web-loan-calculator.firebaseapp.com
