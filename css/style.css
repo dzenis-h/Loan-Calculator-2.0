@@ -1,3 +1,29 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #222222;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.bigFont {
+  font-size: 2rem;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
 /*  Simple media querie for mobile devices*/
 @media screen and (max-width: 567px) {
   .card {
@@ -20,30 +46,4 @@
   #result {
     font-size: 2rem;
   }
-}
-
-html,
-body {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  /* background-color: #222222; */
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-.bigFont {
-  font-size: 2rem;
-}
-
-.icon {
-  font-size: 3rem;
 }
