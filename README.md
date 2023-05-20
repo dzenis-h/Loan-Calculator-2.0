@@ -14,7 +14,7 @@ This app is built with the following technologies:
 | CSS3 | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50"> | [CSS3 docs](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 | Bootstrap 4 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="50"> | [Bootstrap 4 docs](https://getbootstrap.com/docs/4.6/getting-started/introduction/) |
 | JavaScript | <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="50"> | [JavaScript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| Firebase | <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png" width="100"> | [Firebase docs](https://firebase.google.com/docs) |
+| Firebase | <img src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.png" width="100"> | [Firebase docs](https://firebase.google.com/docs) |
 
 To run this app locally, you need to clone this repo and open the index.html file in your browser. You can also check it out [here](https://web-loan-calculator.firebaseapp.com).
 
