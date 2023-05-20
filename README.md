@@ -1,4 +1,4 @@
-Here is another updated ReadMe.md file for the currently open repo based on the current web page context and your feedback:
+Here is the final ReadMe.md file for the currently open repo based on the current web page context and your feedback:
 
 # Loan-Calculator v2.0 <img src="https://raw.githubusercontent.com/dzenis-h/Loan-Calculator-2.0/master/assets/favicon.ico" width="50">
 
