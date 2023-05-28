@@ -1,5 +1,4 @@
-Here is another updated ReadMe.md file for the currently open repo based on the current web page context and your feedback:
-
+##
 # Loan-Calculator v2.0 <img src="https://raw.githubusercontent.com/dzenis-h/Loan-Calculator-2.0/master/assets/favicon.ico" width="50">
 
 Loan-Calculator v2.0 is a web app that can help you estimate your monthly payments, total interest rate, and total amount for any loan amount, interest rate, and term. 😎
